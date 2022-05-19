@@ -14,7 +14,7 @@ def Connection_Established():
 		return False
 
 def Mail_Sender(sender,password):
-	receiver = ['moresmansi@gmail.com','poojasawant9696@gmail.com']
+	receiver = ['runalbandishti@gmail.com','']
 
 	Subject = "Python Auto Generated Script : Doubt"
 	data = repr("""This Script is auto Generated. Sir, What is the meaning of this regex..?  \\b(\\w+)(?:\\W+\\1\\b)+""")
@@ -43,8 +43,8 @@ def main():
 		if connection:
 			#print("Hello")
 			start_time = time.time()
-			sender = 'mansimumbai123@gmail.com'
-			password = 'Mumbai_Google11'
+			sender = 'abc@gmail.com'
+			password = 'abc@123'
 			Mail_Sender(sender,password)
 			end_time = time.time()
 
