@@ -26,15 +26,15 @@ try:
 	#print(key+" : "+value)
 
 	print("Enter text : ")
-	str = "Welcome Back Mansi"
+	str = "Welcome Back "
 	
-	print("Opening mansi.mp3......")	
+	print("Opening Demo.mp3......")	
 	tobj = gtts.gTTS(str, lang='en')
-	tobj.save('Mansi.mp3')
+	tobj.save('Demo.mp3')
  
 	#This statement is for automatically opening file
 	import os
-	os.system("Mansi.mp3")
+	os.system("Demo.mp3")
 
 except Exception as eobj:
 	print("Connection Error...!",eobj)
